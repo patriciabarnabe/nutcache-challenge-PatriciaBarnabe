@@ -1,0 +1,30 @@
+:root {
+  --light-red: #f2385a;
+  --blue: #04adbf;
+  --light-blue: #aef2e6;
+  --orange: #f28a2e;
+  --light-pink: #f2a88d;
+  --white: #fff;
+  --gray: #b3ada8;
+  --black: #000000;
+}
+
+.nut-logo {
+  width: 15rem;
+  margin: 1rem;
+}
+
+.blue-wave {
+  width: 100%;
+}
+
+.logo-container {
+  position: relative;
+  box-shadow: 0px 5px 10px 0px var(--gray);
+}
+
+.txt-header {
+  position: absolute;
+  top: 8rem;
+  left: 55rem;
+}
