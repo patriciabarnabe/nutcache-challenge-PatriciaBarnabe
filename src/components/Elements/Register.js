@@ -87,7 +87,7 @@ function Register() {
         <Modal.Body>
           <Form noValidate validated={validated} onSubmit={handleSubmit}>
             <Form.Group className="mb-3" controlId="formGridName">
-              <Form.Label> Name</Form.Label>
+              <Form.Label> Name *</Form.Label>
               <Form.Control 
                 placeholder="Full name" 
                 required 
@@ -112,7 +112,7 @@ function Register() {
 
             <Row className="mb-3">
               <Form.Group as={Col} controlId="formGridState">
-                <Form.Label>Gender</Form.Label>
+                <Form.Label>Gender *</Form.Label>
                 <Form.Select defaultValue="Choose..." onChange={(event) => setGender(event.target.value)}>
                   <option>Choose...</option>
                   <option>Female</option>
@@ -122,7 +122,7 @@ function Register() {
               </Form.Group>
 
               <Form.Group as={Col} controlId="formGridCPF">
-                <Form.Label>CPF</Form.Label>
+                <Form.Label>CPF *</Form.Label>
                 <Form.Control 
                   type="text" 
                   placeholder="CPF number" 
@@ -132,10 +132,10 @@ function Register() {
             </Row>
 
             <Form.Group as={Col} controlId="formGridEmail" className="mb-3">
-              <Form.Label>Email</Form.Label>
+              <Form.Label>Email *</Form.Label>
               <Form.Control 
                 type="email" 
-                placeholder="Enter email" 
+                placeholder="Email address" 
                 onChange={(event) => setEmail(event.target.value)}
                 required 
               />
@@ -147,7 +147,7 @@ function Register() {
                 className="mb-3"
                 controlId="formGridAddress1"
               >
-                <Form.Label>Start Date</Form.Label>
+                <Form.Label>Start Date *</Form.Label>
                 <Form.Control 
                   placeholder="MM/YYYY" 
                   onChange={(event) => setStartDate(event.target.value)}
@@ -156,7 +156,7 @@ function Register() {
               </Form.Group>
 
               <Form.Group as={Col} controlId="formGridState">
-                <Form.Label>Team</Form.Label>
+                <Form.Label>Team *</Form.Label>
                 <Form.Select defaultValue="Choose..." onChange={(event) => setTeam(event.target.value)}>
                   <option>Choose...</option>
                   <option>Mobile</option>
