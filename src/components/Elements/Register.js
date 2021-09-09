@@ -57,10 +57,6 @@ function Register() {
 
     fetch(apiUsers, requestOptions)
       .then((response) => response.json())
-      .then((userData) => {
-        localStorage.setItem("name", userData.name);
-        return userData.role;
-      })
       .then(() => {
         setConfirmationModal(true)
       });
