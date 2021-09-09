@@ -25,6 +25,13 @@
 
 .txt-header {
   position: absolute;
-  top: 8rem;
-  left: 55rem;
+  top: 7rem;
+  left: 58rem;
+  
 }
+
+.txt-header h4 {
+  font-style: italic;
+  font-size: 1.2em;
+}
+

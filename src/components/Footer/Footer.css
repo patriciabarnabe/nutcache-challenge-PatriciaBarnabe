@@ -13,12 +13,14 @@
   background-image: url('../../assets/red-wave.png');
   bottom: 0;
   position: fixed;
-  top: 39rem;
+  top: 41rem;
   width: 100%;
 }
 
 .txt-footer {
-  margin: 4rem 4rem 3rem 2rem;
+  text-align: center;
+  margin-top: 4.5rem;
+  font-size: 1em;
 }
 
 

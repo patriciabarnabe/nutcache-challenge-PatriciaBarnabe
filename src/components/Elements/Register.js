@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Button, Modal, Form, Row, Col } from "react-bootstrap";
+import { Button, Modal, Form, Row, Col, Tooltip, OverlayTrigger } from "react-bootstrap";
 import { DatePicker, MuiPickersUtilsProvider } from "@material-ui/pickers";
 import DateFnsUtils from "@date-io/date-fns";
 
@@ -12,6 +12,13 @@ function Register() {
   const [validationModal, setValidationModal] = useState(false);
 
   const apiUsers = `${apiURL}/nutemployee`;
+
+  const renderTooltip = (props) => (
+    <Tooltip id="button-tooltip" {...props}>
+      Temporary issue with CrudCrud access
+    </Tooltip>
+  );
+
 
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
@@ -69,6 +76,7 @@ function Register() {
         variant="outline-info"
         size="lg"
         onClick={() => setRegisterModal(true)}
+        style={{'margin-left': '1rem'}}
       >
         Register an Employee
       </Button>
@@ -166,9 +174,15 @@ function Register() {
               </Form.Group>
             </Row>
 
-            <Button variant="info" type="submit">
+            <OverlayTrigger
+              placement="right"
+              delay={{ show: 250, hide: 400 }}
+              overlay={renderTooltip} >
+              
+              <Button variant="info" type="submit">
               Submit
-            </Button>
+              </Button>
+            </OverlayTrigger>
 
             <Modal
               size="sm"
