@@ -15,7 +15,7 @@ function Header() {
           <h4>the best tool to organize your employee information</h4>
           
           <a href="https://www.nutcache.com/" target="_blank" rel="noreferrer">
-            SAIBA MAIS
+            LEARN MORE
           </a>
         </div>  
       </>

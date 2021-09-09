@@ -8,7 +8,7 @@ function Footer() {
           <h4>developed by pat</h4>
           
           <a href="https://github.com/patbarnabe/nutcache-challenge-PatriciaBarnabe" target="_blank" rel="noreferrer">
-            SAIBA MAIS
+            LEARN MORE
           </a>
         </div>  
       </div>
