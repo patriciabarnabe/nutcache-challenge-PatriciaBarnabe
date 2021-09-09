@@ -1,14 +1,3 @@
-:root {
-  --light-red: #f2385a;
-  --blue: #04adbf;
-  --light-blue: #aef2e6;
-  --orange: #f28a2e;
-  --light-pink: #f2a88d;
-  --white: #fff;
-  --gray: #b3ada8;
-  --black: #000000;
-}
-
 .footer-container {
   background-image: url('../../assets/red-wave.png');
   bottom: 0;
