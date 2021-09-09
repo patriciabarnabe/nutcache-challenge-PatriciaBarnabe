@@ -1,14 +1,14 @@
-# Nutcache - Frontend Software Engineer :chestnut:
+# Nutcache :chestnut: Frontend Software Engineer 
 
 ## Technical Challenge | Application development for employee management at Nutcache Company
 
 ## Index
 
-1. [Product Definition](#dart-definição-do-produto)
-2. [Technologies](#robot-tecnologias-utilizadas)
-3. [Project Architecture](#file_folder-estrutura-dos-principais-arquivos)
-4. [Results](#%EF%B8%8F-resultados)
-5. [About the developer](#woman_technologist-sobre-as-desenvolvedoras)
+1. [Product Definition](#dart-product-definition)
+2. [Technologies](#robot-technologies)
+3. [Project Architecture](#file_folder-project-architecture)
+4. [Results](#%EF%B8%8F-results)
+5. [About the developer](#woman_technologist-about-the-developer)
 
 ---
 ## :dart: Product Definition
@@ -22,7 +22,6 @@ The [Nutcache Frontend Project](https://nutcache-challenge-patriciabarnabe.netli
 
 ### Design Thinking
 ![img](./src/assets/color-palette.png)
-![img](./src/assets/color-palette2.png)
 
 ---
 ## :robot: Technologies
