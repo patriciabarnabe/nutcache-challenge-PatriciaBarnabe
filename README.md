@@ -1,4 +1,4 @@
-# Nutcache :chestnut: Frontend Software Engineer 
+<h1 align="center">Nutcache :chestnut: Frontend Software Engineer </p>
 
 ## Technical Challenge | Application development for employee management at Nutcache Company
 
